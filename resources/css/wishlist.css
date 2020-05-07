@@ -1,0 +1,72 @@
+/* wishlist css here */
+
+.table_desc.wishlist table tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+.table_desc.wishlist table tbody tr td.product_total a {
+    background: #f86d72;
+    font-size: 12px;
+    font-weight: 500;
+    height: 38px;
+    line-height: 18px;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+.table_desc.wishlist table tbody tr td.product_total a:hover {
+    background: #f63c43;
+}
+
+@media only screen and (max-width: 767px) {
+    .table_desc.wishlist table tbody tr td.product_total a {
+        padding: 10px 10px;
+    }
+}
+
+.wishlist_share {
+    text-align: center;
+    padding: 20px 0;
+    border: 1px solid #e1e1e1;
+}
+
+.wishlist_share h4 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.wishlist_share ul li {
+    display: inline-block;
+}
+
+.wishlist_share ul li a {
+    padding: 0 10px;
+    display: block;
+}
+
+.wishlist_share ul li a:hover {
+    color: #f86d72;
+}
+
+.wishlist_area {
+    padding-bottom: 87px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .wishlist_area {
+        padding-bottom: 67px;
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .wishlist_area {
+        padding-bottom: 39px;
+        margin-top: 60px;
+    }
+}
+
+/*wishlist css end*/
